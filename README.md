@@ -37,6 +37,30 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 
 </td>
 </tr>
+
+<tr>
+    <td width=50%>
+
+
+```
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+df = pd.read_csv("titanic_dataset.csv")
+df
+```
+  </td>
+  <td>
+              
+
+![image](https://github.com/user-attachments/assets/a25e15b2-7127-4925-b2c0-e9b119ff4cdb)
+
+
+
+</td>
+</tr>
+
 </table>
 
 
