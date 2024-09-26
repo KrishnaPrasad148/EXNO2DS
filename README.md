@@ -262,7 +262,8 @@ df
 
 
 ```
-sns.catplot(x = 'Gender', col = 'Survived', kind = 'count', data = df, height = 5, aspect = .7)
+sns.catplot(x = 'Gender', col = 'Survived', kind = 'count',
+ data = df, height = 5, aspect = .7)
 ````
   </td>
   <td>
@@ -281,7 +282,8 @@ sns.catplot(x = 'Gender', col = 'Survived', kind = 'count', data = df, height = 
 
 
 ```
-sns.catplot(x = 'Survived', hue = 'Gender', kind = 'count', data = df)
+sns.catplot(x = 'Survived', hue = 'Gender',
+kind = 'count', data = df)
 ````
   </td>
   <td>
@@ -358,7 +360,8 @@ sns.jointplot(x = 'Age', y = 'Fare', data = df)
 
 ```
 fig, ax1= plt.subplots(figsize=(8,5))
-pt = sns.boxplot(ax=ax1, x = 'Pclass', y= 'Age',hue = 'Gender', data = df)
+pt = sns.boxplot(ax=ax1, x = 'Pclass', y= 'Age',
+hue = 'Gender', data = df)
 ````
   </td>
   <td>
@@ -377,7 +380,8 @@ pt = sns.boxplot(ax=ax1, x = 'Pclass', y= 'Age',hue = 'Gender', data = df)
 
 
 ```
-sns.catplot(data = df, col = 'Survived', x = 'Gender', hue = 'Pclass', kind = 'count')
+sns.catplot(data = df, col = 'Survived', x = 'Gender',
+ hue = 'Pclass', kind = 'count')
 ````
   </td>
   <td>
