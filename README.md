@@ -62,12 +62,13 @@ df
 </tr>
 
 <tr>
-      <td>
-            <td width=50%>
+
+      <td width=50%>
                   ```
                   df.info()
-                  ```
+                   ```
       </td>
+      
       <td>
             ![image](https://github.com/user-attachments/assets/5f18d834-c225-4c75-ac24-bde620e06c55)
 
